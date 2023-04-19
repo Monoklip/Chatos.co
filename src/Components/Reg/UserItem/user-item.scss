@@ -1,0 +1,38 @@
+.user-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    border-bottom: 1px dotted grey;
+
+    .user-item-title{
+        width: 25%;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .rename-user{
+        background: orange;
+
+        &:hover{
+            background: rgb(160, 105, 3);
+        }
+    }
+
+    .delete-user{
+        background: red;
+
+        &:hover{
+            background: brown;
+        }
+    }
+}
