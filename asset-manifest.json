@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chatos.co/static/css/main.d5c59d86.css",
+    "main.js": "/Chatos.co/static/js/main.d3ceb9c9.js",
+    "index.html": "/Chatos.co/index.html",
+    "main.d5c59d86.css.map": "/Chatos.co/static/css/main.d5c59d86.css.map",
+    "main.d3ceb9c9.js.map": "/Chatos.co/static/js/main.d3ceb9c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5c59d86.css",
+    "static/js/main.d3ceb9c9.js"
+  ]
+}
