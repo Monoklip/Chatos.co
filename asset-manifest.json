@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Chatos.co/static/css/main.d5c59d86.css",
-    "main.js": "/Chatos.co/static/js/main.d3ceb9c9.js",
+    "main.css": "/Chatos.co/static/css/main.bbcd895a.css",
+    "main.js": "/Chatos.co/static/js/main.2cbb0b18.js",
     "index.html": "/Chatos.co/index.html",
-    "main.d5c59d86.css.map": "/Chatos.co/static/css/main.d5c59d86.css.map",
-    "main.d3ceb9c9.js.map": "/Chatos.co/static/js/main.d3ceb9c9.js.map"
+    "main.bbcd895a.css.map": "/Chatos.co/static/css/main.bbcd895a.css.map",
+    "main.2cbb0b18.js.map": "/Chatos.co/static/js/main.2cbb0b18.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5c59d86.css",
-    "static/js/main.d3ceb9c9.js"
+    "static/css/main.bbcd895a.css",
+    "static/js/main.2cbb0b18.js"
   ]
 }
