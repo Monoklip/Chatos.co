@@ -65,12 +65,44 @@
         border-bottom: 1px solid blue;
 
         .reg-box-title{
-            width: 25%;
             height: 30px;
         }
         .reg-box-btn{
             width: 100px;
             text-align: center;
         }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .reg .reg-user{
+        display: block;
+        text-align: center;
+
+        button{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 745px){
+    .reg .reg-user{
+        display: grid;
+
+        button{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px){
+    .reg {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .reg-box-btn{
+        display: none;
     }
 }

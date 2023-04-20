@@ -115,3 +115,25 @@ body{
         }
     }
 }
+
+@media screen and (max-width: 1170px){
+    .price .price-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .price-box-item{
+            width: 99%;
+        }
+    }
+}
+
+@media screen and (max-width: 660px){
+    .price .price-box{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        .price-box-item{
+            width: 99%;
+        }
+    }
+}

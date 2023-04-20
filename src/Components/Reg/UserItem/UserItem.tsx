@@ -62,10 +62,10 @@ const UserItem = (props: { elem: { name: string; email: string; id: number; age:
     return(
         <>
             <div className='user-item'>
-                <div className="user-item-title">{id}</div>
-                <div className="user-item-title">{name}</div>
-                <div className="user-item-title">{email}</div>
-                <div className="user-item-title">{age}</div>
+                <div className="user-item-title" style={{width: `5%`}}>{id}</div>
+                <div className="user-item-title" style={{width: `25%`}}>{name}</div>
+                <div className="user-item-title" style={{width: `40%`}}>{email}</div>
+                <div className="user-item-title" style={{width: `15%`}}>{age}</div>
                 <button className='rename-user' onClick={openRenameBlock}>Rename</button>
                 <button className='delete-user' onClick={deleteUser}>Delete</button>
             </div>

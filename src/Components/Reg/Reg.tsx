@@ -112,10 +112,10 @@ const Reg = () => {
             </div>
             <h1>Користувачі</h1>
             <div className="reg-box">
-                <div className="reg-box-title" onClick={sortId}>ID</div>
-                <div className="reg-box-title" onClick={sortName}>Name</div>
-                <div className="reg-box-title" onClick={sortEmail}>Email</div>
-                <div className="reg-box-title" onClick={sortAge}>Age</div>
+                <div className="reg-box-title" onClick={sortId} style={{width: `5%`}}>ID</div>
+                <div className="reg-box-title" onClick={sortName} style={{width: `25%`}}>Name</div>
+                <div className="reg-box-title" onClick={sortEmail} style={{width: `40%`}}>Email</div>
+                <div className="reg-box-title" onClick={sortAge} style={{width: `15%`}}>Age</div>
                 <div className='reg-box-btn'></div>
                 <div className='reg-box-btn'></div>
             </div>
